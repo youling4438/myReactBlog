@@ -10,13 +10,13 @@ import { StoreState } from './types/index';
 import './index.css';
 
 const store = createStore<StoreState>(enthusiasm, {
-  enthusiasmLevel: 1,
-  languageName: 'TypeScript',
+	enthusiasmLevel: 1,
+	languageName: 'zhangqi',
 });
 
 ReactDOM.render(
-  <Provider store={store}>
-    <Hello />
-  </Provider>,
-  document.getElementById('root') as HTMLElement
+	<Provider store={store}>
+		<Hello />
+	</Provider>,
+	document.getElementById('root') as HTMLElement
 );
