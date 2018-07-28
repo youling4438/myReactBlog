@@ -1,0 +1,63 @@
+#header {
+    height: 300px;
+    width: 228px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -60px;
+}
+
+a {
+    display: inline-block;
+}
+
+.img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: url(../../../../static/images/gakkis.jpg);
+    background-size: cover;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    transition: all .8s ease-in-out;
+}
+
+.img:hover {
+    transform: scale(1.2) rotate(360deg);
+}
+
+h3 {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+h3 a {
+    color: #696969;
+    text-decoration: none;
+    font-family: Roboto, "Roboto", serif;
+    font-size: 30px;
+}
+
+p {
+    text-align: center;
+    color: #999;
+    font-size: 15px;
+    line-height: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    background-image: linear-gradient(to right, red, orange, yellow, green, yellow, orange, red, orange, yellow, green, yellow, orange, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-size: 200% 100%;
+    animation: move 5s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
+    /*无缝滚动的背景设置*/
+}

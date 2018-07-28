@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './Container.css';
+import LeftCol from './leftCol/LeftCol';
 
 class Container extends React.Component {
 	constructor(props: object) {
@@ -16,7 +17,7 @@ class Container extends React.Component {
 	render() {
 		return (
 			<div id="container">
-				<div className="left-col" />
+                <LeftCol />
 				<div className="right-col" />
 			</div>
 		);

@@ -4,16 +4,6 @@
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.left-col {
-	background: #ad5656;
-	width: 300px;
-	position: fixed;
-	opacity: 1;
-	transition: all .2s ease-in;
-	height: 100%;
-	z-index: 999;
-}
-
 .right-col {
 	position: absolute;
 	right: 0;
