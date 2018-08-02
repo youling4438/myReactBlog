@@ -1,0 +1,78 @@
+ul, ol, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+*引入svg icon
+*/
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.Menu {
+    margin-top: 40px;
+}
+
+.Menu a {
+    text-decoration: none;
+}
+
+.homePage a {
+    min-width: 300px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.homePage a:hover, .linkLists a:hover {
+    color: #B0A0AA;
+}
+
+.linkLists {
+    text-align: center;
+}
+
+.linkLists a {
+    font-size: 12px;
+    color: #696969;
+}
+
+.linkLists li, .iconLists li {
+    display: inline;
+}
+
+.Menu li:nth-child(2) {
+    margin-top: 40px;
+}
+
+.linkLists li:not(:last-child) a::after {
+    content: '/';
+}
+
+.iconLists {
+    text-align: center;
+}
+
+.iconfont {
+    transition: all .4s ease-in;
+    color: rgba(85, 26, 139, .6);
+}
+
+.iconfont:hover {
+    color: rgba(34, 3, 63, .8);
+}
+
+.iconLists span {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 30px 5px;
+    background: rgba(176, 160, 170, 0.527);
+}

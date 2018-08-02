@@ -1,5 +1,6 @@
 import * as React from 'react';
 import Header from './header/Header';
+import Menu from './menu/Menu';
 import './LeftCol.css';
 
 class LeftCol extends React.Component{
@@ -16,6 +17,7 @@ class LeftCol extends React.Component{
                 <div className = "top" />
                 <div className = "bottom" >
                     <Header />
+                    <Menu />
                 </div>
             </div>
         );
